@@ -20,6 +20,6 @@ from smexperiments.trial_component import TrialComponent
 from smexperiments.tracker import Tracker
 
 training_experiment = Experiment.create(
-                                experiment_name = f"cifar10-training-experiment-{int(time.time())}",
-                                description     = "Hypothesis: Custom model architecture delivers higher validation accuracy for classification compared to ResNet50 and VGG on the CIFAR10 dataset",
+                                experiment_name = f"test-experiment-{int(time.time())}",
+                                description     = "This is a Test ",
                                 sagemaker_boto_client=sm)
